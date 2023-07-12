@@ -1,9 +1,11 @@
 def main(a):
-    """
+    return (a>99 and a<1000)
+
+print(main(193))
+"""
     Given integer a,  check the following statement "The integer is three-digit number".
     Args:
         a(int): parameter a
     Returns:
         bool: answer
     """
-    return
