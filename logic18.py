@@ -4,8 +4,7 @@ def main(a):
     b=a//100%10 
     d=a//10%10
     m=a%10
-    #return (x>y and y>b and b>d and d>m)
-    return       (x<y and x<b and b<d and d<m)
+    return  (x<y and x<b and b<d and d<m)
 print(main(12345))
 """Given a five-digit integer a, check the following statement "All digits of the number are in descending order".
         Args:
