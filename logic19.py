@@ -1,5 +1,7 @@
 def main(x):
-    """
+    return x//10==x%10
+print(main(11))
+"""
     Given a two digit integer x, return true if x is palindrome integer.
     An integer is a palindrome, when it reads the same backward as forward.
 
@@ -8,4 +10,3 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
